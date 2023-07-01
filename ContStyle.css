@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #fff;
+    margin: auto;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+header{
+    display: flex;
+    height: 95px;
+    gap: 200px;
+    background-color: #48B1BF;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    color:white;
+    opacity: 2;
+}
+
+h1 {
+    margin: 0;
+}
+
+.imagen{
+    width: 500px;
+    height: 250px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+  
+.h2{
+    width: fit-content;
+    align-items: center;
+    max-width: 70%;
+    position: relative;
+    color: #005792;
+
+}
+.icono{
+    float: left;
+    align-items: center;
+    padding: 5px 20px 0;
+}
+
+.icono img{
+    height: 105px;
+}
+
+.icono img:hover{
+    transform: scale(1.1);
+}
+
+.navegacion{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    z-index: 1000;
+}
+
+.navegacion ul{
+    list-style: none;
+    padding: 0 0px;
+}
+
+.navegacion ul li{
+    display: inline-block;
+    position: relative;
+    transition: .3s linear;
+    z-index: 1000;
+}
+
+.navegacion ul li:hover{
+    transform: scale(1.1);
+}
+
+.navegacion ul li a{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    transition: .3s linear; 
+}
+
+.navegacion ul li a:hover{
+    color: #23074d;
+    transform: scale(1.1);
+}
+
+.Encabezado{
+    font-size: 100px; 
+    color: #c31432;
+    display: flex;
+    padding-left: 670px;
+    height: 100px; 
+    z-index: -1;
+
+}
+
+.textoEimagen{
+    display: flex;
+    justify-content:center;
+    padding-right: 300px;
+}
+
+.todaTabla{
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+    padding-left: 40px;
+}
+
+.horarioDeOficina{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #000046;
+    justify-content:center;
+    padding-left: 500px;
+    padding-top: 60px;
+
+
+}
+
+.tablaHorarios{
+    top: 20px;
+    border-color: #485563; 
+    border-collapse: collapse;
+}
+
+.celdaSuperior{
+    color: #fff;
+    background-color: #021b79;
+}
+
+.celdasCuerpo{
+    color: #ffffff;
+    background-color: #48B1BF ;
+}
+
+footer{
+    background: #355C7D;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #20dcdc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+@media screen and (max-width:900px){
+  header{
+      background-position: center;
+  }
+}
+@media screen and (max-width:500px){
+  div{
+      text-align: center;
+      padding: 30px 0 0 0;
+  }
+  .contenedor-footer{
+    flex-direction: column;
+    border: none;
+}
+
+.content-foo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content-foo h4{
+    border: none;
+}
+
+.content-foo p{
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.titulo-final{
+    font-size: 20px;
+ }
+}
